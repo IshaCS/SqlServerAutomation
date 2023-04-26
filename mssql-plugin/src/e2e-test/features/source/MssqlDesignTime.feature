@@ -59,11 +59,11 @@ Feature: Mssql source- Verify Mssql source plugin design time scenarios
     Then Enter input plugin property: "database" with value: "db"
     Then Enter textarea plugin property: "importQuery" with value: "selectQuery"
     Then Enter input plugin property: "instanceName" with value: "instance"
-    Then Replace input plugin property: "queryTimeout" with value: "querytimeout" for Credentials and Authorization related fields
-    Then Replace input plugin property: "loginTimeout" with value: "logintimeout" for Credentials and Authorization related fields
+    Then Replace input plugin property: "queryTimeout" with value: "querytimeout"
+    Then Replace input plugin property: "loginTimeout" with value: "logintimeout"
     Then Enter input plugin property: "workstationID" with value: "id"
     Then Enter input plugin property: "failoverPartner" with value: "partner"
-    Then Replace input plugin property: "packetSize" with value: "packetsize" for Credentials and Authorization related fields
+    Then Replace input plugin property: "packetSize" with value: "packetsize"
     Then Enter input plugin property: "currentLanguage" with value: "english"
     Then Click on the Get Schema button
     Then Verify the Output Schema matches the Expected Schema: "outputSchema"
