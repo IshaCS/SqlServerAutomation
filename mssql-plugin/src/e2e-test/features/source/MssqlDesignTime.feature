@@ -41,8 +41,6 @@ Feature: Mssql source- Verify Mssql source plugin design time scenarios
     Then Validate "SQL Server" plugin properties
     Then Close the Plugin Properties page
 
-
-
   Scenario: To verify Mssql source plugin validation with advanced details
     Given Open Datafusion Project to configure pipeline
     When Expand Plugin group in the LHS plugins list: "Source"
